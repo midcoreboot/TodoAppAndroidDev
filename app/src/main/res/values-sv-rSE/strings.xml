@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TodoAppLab</string>
+    <string name="createTaskBTN">Skapa Uppgift!</string>
+    <string name="ToDo">Att göra</string>
+    <string name="GoBackBTN">Gå Bakåt</string>
+    <string name="CreateBTN">Skapa</string>
+    <string name="Title">Titel</string>
+    <string name="Content">Innehåll</string>
+    <string name="UpdateBTN">Uppdatera</string>
+    <string name="DeleteBTN">Ta Bort</string>
+    <string name="EditBTN">Redigera</string>
+</resources>

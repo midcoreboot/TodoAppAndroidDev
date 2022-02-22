@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TodoAppLab</string>
+    <string name="createTaskBTN">Create Task!</string>
+    <string name="ToDo">To Do</string>
+    <string name="GoBackBTN">Go Back</string>
+    <string name="CreateBTN">Create</string>
+    <string name="Title">Title</string>
+    <string name="Content">Content</string>
+    <string name="UpdateBTN">Update</string>
+    <string name="DeleteBTN">Delete</string>
+    <string name="EditBTN">Edit</string>
+</resources>
