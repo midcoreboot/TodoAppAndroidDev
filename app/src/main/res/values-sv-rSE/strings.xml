@@ -10,4 +10,8 @@
     <string name="UpdateBTN">Uppdatera</string>
     <string name="DeleteBTN">Ta Bort</string>
     <string name="EditBTN">Redigera</string>
+    <string name="validateTitleLonger">Välj en titel längre än 3 karaktärer.</string>
+    <string name="validateTitleShorter">Välj en titel kortare än 24 karaktärer.</string>
+    <string name="validateContentLonger">Välj innehåll längre än 3 karaktärer.</string>
+    <string name="validateContentShorter">Välj innehåll kortare än 155 karaktärer.</string>
 </resources>

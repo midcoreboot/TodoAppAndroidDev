@@ -9,4 +9,8 @@
     <string name="UpdateBTN">Update</string>
     <string name="DeleteBTN">Delete</string>
     <string name="EditBTN">Edit</string>
+    <string name="validateTitleLonger">Please choose a title longer than 3 chars.</string>
+    <string name="validateTitleShorter">Please choose a title shorter than 24 chars.</string>
+    <string name="validateContentLonger">Please choose content longer than 3 chars</string>
+    <string name="validateContentShorter">Please choose content no longer than 155 chars.</string>
 </resources>

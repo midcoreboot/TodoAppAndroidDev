@@ -15,7 +15,6 @@ class MainActivity : Activity() {
         listView.adapter = ArrayAdapter<ToDo>(
             this,
             android.R.layout.simple_list_item_1,
-            //android.R.id.text1,
             toDoRepository.getAllToDos()
         )
         listView.setOnItemClickListener { parent, view, position, id ->

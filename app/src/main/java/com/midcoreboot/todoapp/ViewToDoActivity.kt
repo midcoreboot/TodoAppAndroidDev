@@ -21,7 +21,6 @@ class ViewToDoActivity : Activity() {
         goBackButton.setOnClickListener {
             super.finish()
         }
-        print("test2")
         val todoId = intent.getIntExtra(EXTRA_TODO_ID, 0)
         print(todoId)
         if(todoId != 0) {
@@ -34,7 +33,7 @@ class ViewToDoActivity : Activity() {
                 val todoTitle: String = todo.title
                 val todoContent: String = todo.content
                 title.text = todoTitle
-                title.setGravity(Gravity.CENTER);
+                title.setGravity(Gravity.CENTER)
                 content.text = todoContent
             }
             val editButton = findViewById<Button>(R.id.EditButton)
@@ -64,20 +63,14 @@ class ViewToDoActivity : Activity() {
         }
     }
     override fun onResume() {
-        super.onResume()/*
-        val content = findViewById<TextView>(R.id.contentText)
-        val listView = this.findViewById<ListView>(R.id.listView)
-        val adapt = listView.adapter as ArrayAdapter<*>?
-        adapt?.notifyDataSetChanged()*/
+        super.onResume()
         val id = intent.getIntExtra(EXTRA_TODO_ID, 0)
-        //if(id != -1) {
-            val todo = toDoRepository.getToDoById(id)
-            val title = findViewById<TextView>(R.id.titleText)
-            val content = findViewById<TextView>(R.id.contentText)
-            if (todo != null) {
-                title.text = todo.title
-                content.text = todo.content
-            }
-        //}
+        val todo = toDoRepository.getToDoById(id)
+        val title = findViewById<TextView>(R.id.titleText)
+        val content = findViewById<TextView>(R.id.contentText)
+        if (todo != null) {
+            title.text = todo.title
+            content.text = todo.content
+        }
     }
 }
